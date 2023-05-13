@@ -1,0 +1,110 @@
+
+
+@media screen and (max-width:820px) {
+    .homeThirdContainer {
+        height: 130vh;
+    }
+    .homeThirdContainer div{
+        height: 120vh;
+    }
+
+    .contact form{
+        height: 100vh;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .contact h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    nav h1{
+        display: none;
+    }
+    nav main{
+        width: 100%;
+        justify-content: center;
+    }
+    nav a{
+        margin: 0.5rem;
+    }
+    
+    main .headerTags {
+        margin: 0.5rem;
+    }
+
+    #home {
+        align-items: center;
+    }
+
+    #home h1{
+        font: 400 3rem cursive;
+    }
+
+    .homeSecandContainer {
+        height: 120vh;
+        flex-direction: column;
+    }
+
+    .homeSecandContainer img{
+        width: 100%;
+    }
+    .homeSecandContainer div{
+        width: 100%;
+    }
+
+    .homeThirdContainer {
+        height: 120vh;
+    }
+
+    .homeThirdContainer div {
+        text-align: center;
+        width: 100%;
+        border-radius: 0;
+
+    }
+    .homeThirdContainer p{
+        padding: 5rem 2rem;
+        font-size: 0.9rem ;
+        line-height: 150%;
+    }
+
+    .homeFourthContainer{
+        align-items: center;
+    }
+    .homeFourthContainer .homeIconContainer{
+        border-radius: 0;
+        width: 100%;
+        height: unset;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contact {
+        padding: 0;
+    }
+    .contact .mailtag {
+        margin: 0;
+    }
+    .contact .mailtag div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    footer {
+        height: 50vh;
+        grid-template-columns: 1fr;
+        padding: 7rem;
+    }
+
+    footer div {
+        align-items: center;
+    }
+}
